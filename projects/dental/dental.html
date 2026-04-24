@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blanc — Стоматологическая клиника</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader"></div>
+
+    <!-- Nav -->
+    <nav class="nav" id="nav">
+        <a href="#" class="nav__logo">Blanc<span>.</span></a>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#about">О клинике</a></li>
+            <li><a href="#doctors">Врачи</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#booking" class="nav__cta">Записаться</a></li>
+        </ul>
+        <button class="nav__burger" id="burger" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero__inner">
+            <div class="hero__left">
+                <span class="hero__label reveal-up">Стоматологическая клиника</span>
+                <h1 class="hero__title reveal-up">Blanc<span class="dot">.</span></h1>
+                <p class="hero__tagline reveal-up">Здоровые зубы —<br>уверенная улыбка</p>
+                <div class="hero__actions reveal-up">
+                    <a href="#booking" class="btn btn--fill">Записаться</a>
+                    <a href="#services" class="btn btn--ghost">Наши услуги</a>
+                </div>
+            </div>
+            <div class="hero__right reveal-up">
+                <div class="hero__visual">
+                    <div class="hero__circle hero__circle--1"></div>
+                    <div class="hero__circle hero__circle--2"></div>
+                    <div class="hero__badge">
+                        <span class="hero__badge-num">12</span>
+                        <span class="hero__badge-text">лет<br>опыта</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="label">Что мы лечим</span>
+                <h2 class="title">Услуги</h2>
+            </div>
+            <div class="services__grid">
+                <div class="service-card reveal-up">
+                    <div class="service-card__num">01</div>
+                    <h3>Лечение зубов</h3>
+                    <p>Лечение кариеса и восстановление зубов под микроскопом — без боли и страха</p>
+                    <span class="service-card__price">от 3 500 ₽</span>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-card__num">02</div>
+                    <h3>Имплантация</h3>
+                    <p>Установка имплантов премиальных брендов с гарантией на 20 лет</p>
+                    <span class="service-card__price">от 35 000 ₽</span>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-card__num">03</div>
+                    <h3>Брекеты</h3>
+                    <p>Исправление прикуса и выравнивание зубов системами любой сложности</p>
+                    <span class="service-card__price">от 45 000 ₽</span>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-card__num">04</div>
+                    <h3>Отбеливание</h3>
+                    <p>Профессиональное отбеливание до 10 тонов за одну процедуру</p>
+                    <span class="service-card__price">от 12 000 ₽</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats + About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__left reveal-up">
+                    <span class="label">О клинике</span>
+                    <h2 class="title">Почему выбирают<br><em>Blanc</em></h2>
+                    <p>Мы работаем с 2012 года и за это время помогли тысячам пациентов обрести здоровую улыбку. Наш принцип — современное оборудование, опытные врачи и полный комфорт на каждом этапе лечения.</p>
+                    <a href="#booking" class="btn btn--fill">Записаться на осмотр</a>
+                </div>
+                <div class="about__stats">
+                    <div class="stat reveal-up">
+                        <span class="stat__num">12</span>
+                        <span class="stat__unit">лет</span>
+                        <span class="stat__desc">на рынке</span>
+                    </div>
+                    <div class="stat reveal-up">
+                        <span class="stat__num">8K+</span>
+                        <span class="stat__unit"></span>
+                        <span class="stat__desc">пациентов</span>
+                    </div>
+                    <div class="stat reveal-up">
+                        <span class="stat__num">98%</span>
+                        <span class="stat__unit"></span>
+                        <span class="stat__desc">рекомендуют нас</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors -->
+    <section class="doctors" id="doctors">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="label">Специалисты</span>
+                <h2 class="title">Наши врачи</h2>
+            </div>
+            <div class="doctors__grid">
+                <div class="doctor-card reveal-up">
+                    <div class="doctor-card__photo doctor-card__photo--1"></div>
+                    <div class="doctor-card__info">
+                        <h3>Иванова Марина Сергеевна</h3>
+                        <span class="doctor-card__spec">Главный врач, имплантолог</span>
+                        <span class="doctor-card__exp">15 лет опыта</span>
+                    </div>
+                </div>
+                <div class="doctor-card reveal-up">
+                    <div class="doctor-card__photo doctor-card__photo--2"></div>
+                    <div class="doctor-card__info">
+                        <h3>Петров Алексей Дмитриевич</h3>
+                        <span class="doctor-card__spec">Ортодонт</span>
+                        <span class="doctor-card__exp">10 лет опыта</span>
+                    </div>
+                </div>
+                <div class="doctor-card reveal-up">
+                    <div class="doctor-card__photo doctor-card__photo--3"></div>
+                    <div class="doctor-card__info">
+                        <h3>Соколова Елена Владимировна</h3>
+                        <span class="doctor-card__spec">Терапевт, эндодонтист</span>
+                        <span class="doctor-card__exp">8 лет опыта</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="label">Как это работает</span>
+                <h2 class="title">Этапы приёма</h2>
+            </div>
+            <div class="process__steps">
+                <div class="process__step reveal-up">
+                    <div class="process__step-num">01</div>
+                    <h3>Консультация</h3>
+                    <p>Бесплатный осмотр и составление индивидуального плана лечения</p>
+                </div>
+                <div class="process__step reveal-up">
+                    <div class="process__step-num">02</div>
+                    <h3>Диагностика</h3>
+                    <p>Цифровой снимок и 3D-моделирование для точной картины</p>
+                </div>
+                <div class="process__step reveal-up">
+                    <div class="process__step-num">03</div>
+                    <h3>Лечение</h3>
+                    <p>Комфортная процедура с анестезией нового поколения</p>
+                </div>
+                <div class="process__step reveal-up">
+                    <div class="process__step-num">04</div>
+                    <h3>Наблюдение</h3>
+                    <p>Контрольный осмотр и рекомендации по уходу</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="label">Говорят пациенты</span>
+                <h2 class="title">Отзывы</h2>
+            </div>
+            <div class="reviews__grid">
+                <div class="review-card reveal-up">
+                    <div class="review-card__stars">★★★★★</div>
+                    <p>«Боялся стоматологов всю жизнь, но здесь всё иначе. Врач объяснял каждый шаг — боли не почувствовал совсем.»</p>
+                    <span class="review-card__author">— Дмитрий К.</span>
+                </div>
+                <div class="review-card reveal-up">
+                    <div class="review-card__stars">★★★★★</div>
+                    <p>«Поставили имплант быстро и профессионально. Уже через неделю забыла, что он вообще есть.»</p>
+                    <span class="review-card__author">— Наталья П.</span>
+                </div>
+                <div class="review-card reveal-up">
+                    <div class="review-card__stars">★★★★★</div>
+                    <p>«Носил брекеты 1.5 года. Результат превзошёл ожидания — зубы идеально ровные, рекомендую всем!»</p>
+                    <span class="review-card__author">— Артём С.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking__inner reveal-up">
+                <span class="label">Запись</span>
+                <h2 class="booking__title">Первый осмотр<br><em>бесплатно</em></h2>
+                <p>Запишитесь на консультацию — наш администратор свяжется с вами в течение 15 минут</p>
+                <a href="https://t.me/Wayzamanho" target="_blank" class="btn btn--fill">Записаться в Telegram</a>
+                <span class="booking__note">Или позвоните: +7 (999) 456-78-90</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <span class="footer__logo">Blanc<span>.</span></span>
+            <p>© 2025 Blanc. Все права защищены.</p>
+            <p>Сайт создан <a href="../../index.html">Камилем Тапаевым</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

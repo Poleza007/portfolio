@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière — Салон красоты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader"></div>
+
+    <!-- Nav -->
+    <nav class="nav" id="nav">
+        <a href="#" class="nav__logo">Lumière</a>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#gallery">Работы</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#booking" class="nav__cta">Записаться</a></li>
+        </ul>
+        <button class="nav__burger" id="burger" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__inner">
+            <span class="hero__pre reveal-up">Салон красоты</span>
+            <h1 class="hero__title reveal-up">Lumière</h1>
+            <div class="hero__divider reveal-up"></div>
+            <p class="hero__tagline reveal-up"><em>Красота, которую вы заслуживаете</em></p>
+            <a href="#booking" class="btn reveal-up">Записаться</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="label">Что мы делаем</span>
+                <h2 class="title">Услуги</h2>
+            </div>
+            <div class="services__grid">
+                <div class="service-card reveal-up">
+                    <span class="service-card__icon">✦</span>
+                    <h3>Стрижка и укладка</h3>
+                    <p>Авторские стрижки, подчёркивающие вашу индивидуальность и стиль</p>
+                    <span class="service-card__price">от 2 500 ₽</span>
+                </div>
+                <div class="service-card reveal-up">
+                    <span class="service-card__icon">✦</span>
+                    <h3>Окрашивание</h3>
+                    <p>Балаяж, омбре, однотонное окрашивание — техники любой сложности</p>
+                    <span class="service-card__price">от 4 500 ₽</span>
+                </div>
+                <div class="service-card reveal-up">
+                    <span class="service-card__icon">✦</span>
+                    <h3>Маникюр и педикюр</h3>
+                    <p>Уход за руками и ногами с использованием премиальных материалов</p>
+                    <span class="service-card__price">от 1 800 ₽</span>
+                </div>
+                <div class="service-card reveal-up">
+                    <span class="service-card__icon">✦</span>
+                    <h3>Уход за кожей</h3>
+                    <p>Профессиональные процедуры для сияющей и здоровой кожи лица</p>
+                    <span class="service-card__price">от 3 000 ₽</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__left">
+                    <span class="label reveal-up">О нас</span>
+                    <h2 class="title reveal-up">Место, где<br><em>рождается красота</em></h2>
+                    <p class="reveal-up">Lumière — это пространство, где каждая деталь продумана для вашего комфорта. Наши мастера с многолетним опытом помогут раскрыть вашу красоту и подчеркнуть индивидуальность.</p>
+                    <p class="reveal-up">Мы верим, что красота — это не маска, а отражение вашей внутренней гармонии. Именно поэтому мы подходим к каждому клиенту индивидуально.</p>
+                </div>
+                <div class="about__right">
+                    <div class="about__feat reveal-up">
+                        <span class="about__feat-num">01</span>
+                        <div>
+                            <h4>Опытные мастера</h4>
+                            <p>Команда сертифицированных специалистов с опытом от 5 лет</p>
+                        </div>
+                    </div>
+                    <div class="about__feat reveal-up">
+                        <span class="about__feat-num">02</span>
+                        <div>
+                            <h4>Премиальные материалы</h4>
+                            <p>Только профессиональная косметика ведущих мировых брендов</p>
+                        </div>
+                    </div>
+                    <div class="about__feat reveal-up">
+                        <span class="about__feat-num">03</span>
+                        <div>
+                            <h4>Индивидуальный подход</h4>
+                            <p>Каждый клиент получает персональную консультацию</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="label">Наши работы</span>
+                <h2 class="title">Галерея</h2>
+            </div>
+            <div class="gallery__grid">
+                <div class="gallery__item g1 reveal-up"></div>
+                <div class="gallery__item g2 reveal-up"></div>
+                <div class="gallery__item g3 reveal-up"></div>
+                <div class="gallery__item g4 reveal-up"></div>
+                <div class="gallery__item g5 reveal-up"></div>
+                <div class="gallery__item g6 reveal-up"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="label">Говорят клиенты</span>
+                <h2 class="title">Отзывы</h2>
+            </div>
+            <div class="reviews__grid">
+                <div class="review-card reveal-up">
+                    <div class="review-card__stars">★★★★★</div>
+                    <p>«Очень довольна результатом! Мастер выслушал все мои пожелания и создал именно то, что я хотела. Обязательно вернусь!»</p>
+                    <span class="review-card__author">— Анастасия М.</span>
+                </div>
+                <div class="review-card reveal-up">
+                    <div class="review-card__stars">★★★★★</div>
+                    <p>«Салон с потрясающей атмосферой. Процедура по уходу за кожей дала видимый результат уже после первого раза.»</p>
+                    <span class="review-card__author">— Екатерина В.</span>
+                </div>
+                <div class="review-card reveal-up">
+                    <div class="review-card__stars">★★★★★</div>
+                    <p>«Лучший маникюр в городе! Работа выполнена аккуратно и быстро, мастер очень внимательный и профессиональный.»</p>
+                    <span class="review-card__author">— Ольга Д.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking__inner reveal-up">
+                <span class="label">Запись</span>
+                <h2 class="booking__title">Готовы преобразиться?</h2>
+                <p>Запишитесь прямо сейчас — выберите удобное время и мастера</p>
+                <a href="https://t.me/Wayzamanho" target="_blank" class="btn">Записаться в Telegram</a>
+                <span class="booking__note">Или позвоните: +7 (999) 123-45-67</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <span class="footer__logo">Lumière</span>
+            <p>© 2025 Lumière. Все права защищены.</p>
+            <p>Сайт создан <a href="../../index.html">Камилем Тапаевым</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
