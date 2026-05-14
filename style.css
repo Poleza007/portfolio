@@ -17,6 +17,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 body {
@@ -810,6 +811,11 @@ body {
         padding-left: 24px;
     }
 
+    .process__step:first-child {
+        padding-left: 24px;
+        border-left: 2px solid rgba(199, 183, 163, 0.2);
+    }
+
     .portfolio__grid {
         grid-template-columns: 1fr 1fr;
         gap: 16px;
@@ -889,6 +895,14 @@ body {
 
     .about__label {
         padding-top: 0;
+    }
+
+    .services__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 40px 24px;
     }
 
     .portfolio__grid {
